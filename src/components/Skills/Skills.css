@@ -37,6 +37,7 @@
 .skill-image {
   max-height: 64px;
   max-width: 64px;
+  image-rendering: auto;
 }
 
 .skill-name {

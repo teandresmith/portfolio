@@ -1,26 +1,10 @@
-import InJapan from './images/injapan.png'
-import ChannelTech from './images/channel-tech.png'
-import Cryptology from './images/cryptology.png'
-import CSS from './images/CSS3.svg.png'
-import Git from './images/git-logo.png'
-import Gopher from './images/gopher-logo.png'
-import JS from './images/javascript-logo.png'
-import NodeJS from './images/nodejs-icon-logo.png'
-import ReactLogo from './images/react-logo-vector.svg'
-import MongoDB from './images/mongodb.png'
-import MUI from './images/mui.svg'
-import GCP from './images/GCP.png'
-import PostGres from './images/PostgreSQL.png'
-import Docker from './images/docker.png'
-import Kubernetes from './images/kubernetes.png'
-import Redis from './images/redis.png'
-
 export const projects = [
   {
     title: 'InJapan',
     description:
       'A personal blog about living in Japan as a foreigner. InJapan is designed for those who are interested in learning about Japan in raw media form. Built with React + Golang.',
-    image: InJapan,
+    image:
+      'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/injapan.png',
     techStack: ['React', 'Go-Gin', 'Mongodb', 'CSS'],
     githubLink: 'https://github.com/teandresmith/injapan-golang-react-frontend',
     websiteLink: 'https://injapan.netlify.app',
@@ -29,7 +13,8 @@ export const projects = [
     title: 'channel tech',
     description:
       'Fullstack technology eCommerce website. Contains features such as Authentication/Authorization, Filtering, Pagination and more. Built with React + Golang.',
-    image: ChannelTech,
+    image:
+      'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/channel-tech.png',
     techStack: ['React', 'Go-Gin', 'Mongodb', 'Material UI'],
     githubLink: 'https://github.com/teandresmith/channel-tech',
     websiteLink: 'https://channel-tech.netlify.app',
@@ -38,7 +23,8 @@ export const projects = [
     title: 'Cryptology',
     description:
       'Cryptology is practically a cryptocurrency-based encylopedia that presents information about the current top crypto coins.',
-    image: Cryptology,
+    image:
+      'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/cryptology.png',
     techStack: ['React', 'Ant Design', 'RTK', 'RapidAPI'],
     githubLink: 'https://github.com/teandresmith/cryptology',
     websiteLink: 'https://cryptology-web.netlify.app/',
@@ -47,56 +33,59 @@ export const projects = [
 
 export const proficientSkills = [
   {
-    logo: ReactLogo,
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/react-logo-vector.svg',
     name: 'React',
   },
   {
-    logo: JS,
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/javascript-logo.png',
     name: 'JavaScript',
   },
   {
-    logo: Gopher,
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/gopher-logo.png',
     name: 'Golang',
   },
   {
-    logo: MongoDB,
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/mongodb.png',
     name: 'MongoDB',
   },
   {
-    logo: MUI,
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/mui.svg',
     name: 'Material UI',
   },
   {
-    logo: NodeJS,
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/nodejs-icon-logo.png',
     name: 'Node.js',
   },
   {
-    logo: Git,
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/git-logo.png',
     name: 'Git',
   },
-  { logo: CSS, name: 'CSS' },
+  {
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/CSS3.svg.png',
+    name: 'CSS',
+  },
 ]
 
 export const familiarSkills = [
   {
-    logo: Kubernetes,
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/kubernetes.png',
     name: 'Kubernetes',
   },
   {
-    logo: GCP,
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/GCP.png',
     name: 'GCP',
   },
   {
-    logo: Docker,
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/docker.png',
     name: 'Docker',
   },
 
   {
-    logo: PostGres,
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/PostgreSQL.png',
     name: 'PostgreSQL',
   },
   {
-    logo: Redis,
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/redis.png',
     name: 'Redis',
   },
 ]
