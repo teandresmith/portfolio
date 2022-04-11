@@ -21,7 +21,7 @@ const About = () => {
         <div className='quick-contact-group'>
           <div className='contact-icon-container'>
             <a
-              href='https://drive.google.com/file/d/1MeTLB2A4LcOoC1D9HXH2kVu04YG_w-Ri/view?usp=sharing'
+              href='https://drive.google.com/file/d/1wDIhyf2ZosfO5Lg5IYHV-kWc7J6lrzUn/view?usp=sharing'
               target='_blank'
               rel='noreferrer'
               className='resume-button'

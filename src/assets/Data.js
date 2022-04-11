@@ -31,6 +31,17 @@ export const projects = [
   },
 ]
 
+export const currentlyLearningSkills = [
+  {
+    name: 'TypeScript',
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/typescript.png',
+  },
+  {
+    name: 'React Native',
+    logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/react-logo-vector.svg',
+  },
+]
+
 export const proficientSkills = [
   {
     logo: 'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/react-logo-vector.svg',
