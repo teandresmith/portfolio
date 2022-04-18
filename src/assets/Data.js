@@ -20,14 +20,14 @@ export const projects = [
     websiteLink: 'https://channel-tech.netlify.app',
   },
   {
-    title: 'Cryptology',
+    title: 'Mui Hook Form',
     description:
-      'Cryptology is practically a cryptocurrency-based encylopedia that presents information about the current top crypto coins.',
+      'Mui Hook Form is a component library that attempts to simplify and streamline the use of react-hook-form and Material UI.',
     image:
-      'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/cryptology.png',
-    techStack: ['React', 'Ant Design', 'RTK', 'RapidAPI'],
-    githubLink: 'https://github.com/teandresmith/cryptology',
-    websiteLink: 'https://cryptology-web.netlify.app/',
+      'https://storage.googleapis.com/en-jp-tech-ecommerce-media/images/mui-hook-form.png',
+    techStack: ['React', 'TypeScript', 'Material UI', 'React Hook'],
+    githubLink: 'https://github.com/teandresmith/mui-hook-form-mhf',
+    websiteLink: 'https://www.npmjs.com/package/mui-hook-form-mhf',
   },
 ]
 
